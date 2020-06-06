@@ -27,3 +27,9 @@ The key "Any RE" refers to the rotary encorder. The behaviour is the following:
   - Qwerty: Media play/pause on click; volume up/down on rotation
 
   - Lower: arrow left/right on rotation
+
+
+RGB lighting is used to show which layer is activated:
+  - Qwerty: pink
+  - Lower: turquoise
+  - Raise: gold 
