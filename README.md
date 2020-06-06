@@ -1,5 +1,5 @@
 # iris_keymap
-## custom keymap for iris rev4 split keyboard
+## ✨custom keymap for iris rev4 split keyboard✨
 
 ### The layout is the following:
 
@@ -30,6 +30,6 @@ Raise:
 
 
 ### RGB lighting is used to show which layer is activated:
-  - Qwerty: pink
-  - Lower: turquoise
-  - Raise: gold
+  - Qwerty: pink 🌸
+  - Lower: turquoise 🐬
+  - Raise: gold 🌻
