@@ -20,3 +20,10 @@ Raise:
 [lower]: https://github.com/lalde/iris_keymap/blob/master/iris_keymap_1.PNG
 
 [raise]: https://github.com/lalde/iris_keymap/blob/master/iris_keymap_2.PNG
+
+
+
+The key "Any RE" refers to the rotary encorder. The behaviour is the following:
+  - Qwerty: Media play/pause on click; volume up/down on rotation
+
+  - Lower: arrow left/right on rotation
