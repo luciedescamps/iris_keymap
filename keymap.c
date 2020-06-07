@@ -45,7 +45,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //┌────────┬────────┬────────┬────────┬────────┬────────┐                          ┌────────┬────────┬────────┬────────┬────────┬────────┐
      KC_F1,  KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,                              KC_F7,   KC_F8,   KC_F9,   KC_F10,   KC_F11,  KC_F12,
   //├────────┼────────┼────────┼────────┼────────┼────────┤                          ├────────┼────────┼────────┼────────┼────────┼────────┤
-     RGB_TOG, RGB_RMOD, RGB_MOD, RGB_HUD, RGB_HUI, RGB_SAD,                            RGB_SAI, RGB_VAD, RGB_VAI, RGB_SPD, RGB_SPI, KC_BSPC,
+     RGB_TOG, RGB_M_P, RGB_M_B, RGB_HUD, RGB_HUI, RGB_SAD,                            RGB_SAI, RGB_VAD, RGB_VAI, RGB_SPD, RGB_SPI, KC_BSPC,
   //├────────┼────────┼────────┼────────┼────────┼────────┤                          ├────────┼────────┼────────┼────────┼────────┼────────┤
      _______, _______, _______, _______, _______, _______,                            _______, _______, _______, _______, _______, KC_PGUP,
   //├────────┼────────┼────────┼────────┼────────┼────────┼────────┐        ┌────────┼────────┼────────┼────────┼────────┼────────┼────────┤
@@ -121,13 +121,13 @@ void matrix_scan_user(void) {
   static bool has_run;
   if (!has_run) {
     has_run = true;
-        rgblight_setrgb (RGB_PURPLE);
+        rgblight_setrgb (RGB_MAGENTA);
   }
 }
 uint32_t layer_state_set_user(uint32_t state) {
     switch (biton32(state)) {
     case _QWERTY:
-        rgblight_setrgb(RGB_PURPLE);
+        rgblight_setrgb(RGB_MAGENTA);
         break;
     case _LOWER:
         rgblight_setrgb(RGB_TURQUOISE);
