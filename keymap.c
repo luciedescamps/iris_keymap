@@ -121,13 +121,13 @@ void matrix_scan_user(void) {
   static bool has_run;
   if (!has_run) {
     has_run = true;
-        rgblight_setrgb (RGB_PINK);
+        rgblight_setrgb (RGB_PURPLE);
   }
 }
 uint32_t layer_state_set_user(uint32_t state) {
     switch (biton32(state)) {
     case _QWERTY:
-        rgblight_setrgb(RGB_PINK);
+        rgblight_setrgb(RGB_PURPLE);
         break;
     case _LOWER:
         rgblight_setrgb(RGB_TURQUOISE);
