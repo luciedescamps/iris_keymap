@@ -30,6 +30,6 @@ Raise:
 
 
 ### RGB lighting is used to show which layer is activated:
-  - Qwerty: purple 💜
+  - Qwerty: pink 🐷
   - Lower: turquoise 🐬
-  - Raise: gold 🌻
+  - Raise: gold 🐥

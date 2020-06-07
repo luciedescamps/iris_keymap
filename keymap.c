@@ -121,19 +121,19 @@ void matrix_scan_user(void) {
   static bool has_run;
   if (!has_run) {
     has_run = true;
-        rgblight_setrgb (RGB_MAGENTA);
+        rgblight_sethsv_noeeprom(HSV_MAGENTA);
   }
 }
 uint32_t layer_state_set_user(uint32_t state) {
     switch (biton32(state)) {
     case _QWERTY:
-        rgblight_setrgb(RGB_MAGENTA);
+        rgblight_sethsv_noeeprom(HSV_MAGENTA);
         break;
     case _LOWER:
-        rgblight_setrgb(RGB_TURQUOISE);
+        rgblight_sethsv_noeeprom(HSV_TURQUOISE);
         break;
     case _RAISE:
-        rgblight_setrgb (RGB_GOLD);
+        rgblight_sethsv_noeeprom(HSV_GOLD);
         break;
 
     }
