@@ -1,5 +1,5 @@
 # iris_keymap
-## ✨custom keymap for iris rev4 split keyboard✨
+## ✨custom keymap for [iris rev4 split keyboard](https://keeb.io/products/iris-keyboard-split-ergonomic-keyboard "Iris PCBs")✨
 
 ### The layout is the following:
 
